@@ -1,4 +1,10 @@
-## Question 1
+|||
+|--|--|
+|Name|Caleb Nana Agyei|
+|Index Number|4235230042
+|Programme|BSc. Computer Science (Evening)|
+
+### Question 1
 #### a. The following are identifiers. Using them, do the following:
 
 | Identifier            | Identify the wrong ones   | State the reason why they are wrong | Rewrite the wrong ones correctly |
@@ -48,7 +54,8 @@ The central processing unit (CPU) contains the following major components:
 - __Registers:__ Regiters provide internal storage for the CPU.
 - __Arithmetic and Logic Unit (ALU):__ The ALU performs the computer's data processing functions.
 
-## Question 2
+
+### Question 2
 #### Given the problem of writing a program to convert US Dollar ($) to Ghana Cedis (GHC), assuming the current Dollar rate to Ghana Cedis is ($1 : GHC 3.9). Find the amount in GHC when a user enters an amount in Dollar(s), undertake the following:
 
 ##### 1. State the problem that the program is to solve
@@ -99,7 +106,7 @@ The central processing unit (CPU) contains the following major components:
 > ```
 
 
-## Question 3
+### Question 3
 
 #### a. The area and perimeter of a rectangle can be determined using the following formula: Area = length * Width Perimeter = 2 (length + Width)
 #### Assuming that a program was to be written to determine the Area and perimeter above perform the following:
