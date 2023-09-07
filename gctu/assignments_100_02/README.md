@@ -49,35 +49,52 @@ The central processing unit (CPU) contains the following major components:
 - Arithmetic and Logic Unit (ALU): The ALU performs the computer's data processing functions.
 
 ## Question 2
-#### Giving the problem of writing a program to convert US Dollar ($) to Ghana Cedis (GHC), assuming the current Dollar rate to Ghana Cedis is ($1 : GHC 3.9). Find the amount in GHC when a user enters an amount in Dollar(s), undertake the following:
+#### Given the problem of writing a program to convert US Dollar ($) to Ghana Cedis (GHC), assuming the current Dollar rate to Ghana Cedis is ($1 : GHC 3.9). Find the amount in GHC when a user enters an amount in Dollar(s), undertake the following:
 
-1. State the problem that the program is to solve
+##### 1. State the problem that the program is to solve
     - To convert US Dollar ($) to Ghana Cedis (GHC) at a given exchange rate
 
-2. Perform a Program analysis to determine the input, process and outputs
+##### 2. Perform a Program analysis to determine the input, process and outputs
 >    |           |                                                       |
 >    |----       |   ----                                                |
 >    | Input     | (a) Dollar to Cedi exchange rate (b) Dollar amount    |
 >    | Process   | Multiply exchange rate by Dollar amount               |
->    | Output    | US Dollar equivalent of Ghana Cedi                    |
+>    | Output    | Ghana Cedi equivalent of US Dollar                    |
 
-3. Write the Algorithm for the program
-> Start
->
-> Stop
+##### 3. Write the Algorithm for the program
+> | __Algorithm__                                           |
+> | ----------                                              |
+> | Start                                                   |
+> | Read Exchange Rate, R = 3.9                             |
+> | Accept Dollar amount, USD                               |
+> | Compute Ghana Cedi, GHC = Exchange Rate * Dollar amount`|
+> | Output  Ghana Cedi, GHC                                 |
+> | Stop                                                    |
+
+##### 4. Write the Pseudocode for the program
+> | __Pseudocode__              |
+> | ----------                  |
+> | Start                       |
+> | Read `R`                    |
+> | Accept `USD`                |
+> | Compute `GHC = R * USD`     |
+> | Display `GHC`               |
+> | Stop                        |
+
+##### 5. Draw the flow chart for the program
 
 #### b. Suppose p, q, n, and t are double variables. What value is assigned to each of these variables after the last statement executes
 
-```sh
-Statement               Value assigned
-
-p = 15.00;              p = 15.00
-q = 10.00;              q = 10.00
-n = p – 8;              n = 7.00
-t = p + 5 * q - n;      t = 58 
-n = t – p;              n = 43
-t++;                    t = 59
-```
+> ```sh
+> Statement               Value assigned
+> 
+> p = 15.00;              p = 15.00
+> q = 10.00;              q = 10.00
+> n = p – 8;              n = 7.00
+> t = p + 5 * q - n;      t = 58 
+> n = t – p;              n = 43
+> t++;                    t = 59
+> ```
 
 
 ## References
