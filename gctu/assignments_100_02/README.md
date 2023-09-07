@@ -129,6 +129,8 @@ __Input, process and outputs:__
 
 ##### 3. Develop a flowchart
 
+![flowchart-rectangle](https://github.com/cnagyei/cpp/assets/125774357/085b49b8-83f1-431e-b899-f3572cb50acd)
+
 
 
 ##### 4. Develop a pseudocode
