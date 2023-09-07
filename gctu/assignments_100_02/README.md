@@ -16,9 +16,9 @@
 
 #### b. Explain the following terms
 
-1. Identifiers - Identifiers are names that represent unique objects or class of objects. They are a type of string of alphanumeric characters that always begins with either an alphabetic or underscore character.
+1. __Identifiers:__ Identifiers are names that represent unique objects or class of objects. They are a type of string of alphanumeric characters that always begins with either an alphabetic or underscore character.
 
-2. Pseudocodes - A pseudocode is a notation, language-like solution resembling a simplified programming language, used in program design to create the outline or rough draft of a program. Pseudocodes summarize a program's flow, but excludes underlying details.
+2. __Pseudocodes:__ A pseudocode is a notation, language-like solution resembling a simplified programming language, used in program design to create the outline or rough draft of a program. Pseudocodes summarize a program's flow, but excludes underlying details.
     - A pseudocode is not an actual programming language
     - A pseudocode cannot be compiled into an executable program
     - It uses short terms or simple English syntaxes to write code for programs before it is actuall converted into a specific programming language
@@ -30,23 +30,23 @@
         >    ELSE print "You lose!"
         >    ```
 
-3. Comments: Comments are specially marked lines of text in the program that are not evaluated. Comments are programmer-readable explanation or annotation in the source code of a computer program. They are added for the purpose of making the source code easier for humans to understand, and are generally ignored by compilers and interpreters. There are usually two syntactic ways to comment.
+3. __Comments:__ Comments are specially marked lines of text in the program that are not evaluated. Comments are programmer-readable explanation or annotation in the source code of a computer program. They are added for the purpose of making the source code easier for humans to understand, and are generally ignored by compilers and interpreters. There are usually two syntactic ways to comment.
     - The first is called a _single line comment_ and, as implied, only applies to a single line in the source code.
     - _Block comment_ refers usually to a paragraph of text. A block comment has a start symbol and an end symbol and everthing between is ignored by the computer.
 
-4. Compiler: A compiler is a program that converts instructions of a source program written in some high-level programming language (such as JavaScript) into a machine code or lower-level form so that they can be read and executed by a computer. The machine code generated can be later executed many times against different data each time.
+4. __Compiler:__ A compiler is a program that converts instructions of a source program written in some high-level programming language (such as JavaScript) into a machine code or lower-level form so that they can be read and executed by a computer. The machine code generated can be later executed many times against different data each time.
 
-5. Algorithm: An algorithm is simply a set of steps used to complete a specific task. Alogorithms are the building blocks for computer programming. They are used to solve problems based on the understanding of available alternatives. Algorithms also serve as specifications for performing calculations, processing data, performing automated reasoning or making decisions.
+5. __Algorithm:__ An algorithm is simply a set of steps used to complete a specific task. Alogorithms are the building blocks for computer programming. They are used to solve problems based on the understanding of available alternatives. Algorithms also serve as specifications for performing calculations, processing data, performing automated reasoning or making decisions.
 
-6. Flowchart: A flowchart is a graphical representation of a computer program in relation to its sequence of functions ad distints from the data it processes. A flowchart depicts a process, system or computer algorithm. a flowchart
+6. __Flowchart:__ A flowchart is a graphical representation of a computer program in relation to its sequence of functions ad distints from the data it processes. A flowchart depicts a process, system or computer algorithm. a flowchart
 
 #### c. List and explain the components of the CPU
 
 The central processing unit (CPU) contains the following major components:
 
-- Control unit: The control unit is responsible for executing all the operations of the processor. It fetches and decodes instructions as well as control information flow in and out of main memory.
-- Registers: Regiters provide internal storage for the CPU.
-- Arithmetic and Logic Unit (ALU): The ALU performs the computer's data processing functions.
+- __Control unit:__ The control unit is responsible for executing all the operations of the processor. It fetches and decodes instructions as well as control information flow in and out of main memory.
+- __Registers:__ Regiters provide internal storage for the CPU.
+- __Arithmetic and Logic Unit (ALU):__ The ALU performs the computer's data processing functions.
 
 ## Question 2
 #### Given the problem of writing a program to convert US Dollar ($) to Ghana Cedis (GHC), assuming the current Dollar rate to Ghana Cedis is ($1 : GHC 3.9). Find the amount in GHC when a user enters an amount in Dollar(s), undertake the following:
