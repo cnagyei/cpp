@@ -56,19 +56,19 @@ The central processing unit (CPU) contains the following major components:
 
 
 ### Question 2
-#### Given the problem of writing a program to convert US Dollar ($) to Ghana Cedis (GHC), assuming the current Dollar rate to Ghana Cedis is ($1 : GHC 3.9). Find the amount in GHC when a user enters an amount in Dollar(s), undertake the following:
+#### a. Given the problem of writing a program to convert US Dollar ($) to Ghana Cedis (GHC), assuming the current Dollar rate to Ghana Cedis is ($1 : GHC 3.9). Find the amount in GHC when a user enters an amount in Dollar(s), undertake the following:
 
-##### 1. State the problem that the program is to solve
+#### 1. State the problem that the program is to solve
     - To convert US Dollar ($) to Ghana Cedis (GHC) at a given exchange rate
 
-##### 2. Perform a Program analysis to determine the input, process and outputs
+#### 2. Perform a Program analysis to determine the input, process and outputs
 >    |           |                                                       |
 >    |----       |   ----                                                |
 >    | Input     | (a) Dollar to Cedi exchange rate (b) Dollar amount    |
 >    | Process   | Multiply exchange rate by Dollar amount to get Ghana Cedi equivalent              |
 >    | Output    | Ghana Cedi equivalent of US Dollar                    |
 
-##### 3. Write the Algorithm for the program
+#### 3. Write the Algorithm for the program
 > | __Algorithm__                                           |
 > | ----------                                              |
 > | Step 1: Start                                                   |
@@ -78,7 +78,7 @@ The central processing unit (CPU) contains the following major components:
 > | Step 5: Output  Ghana Cedi, GHC                                 |
 > | Step 6: Stop                                                    |
 
-##### 4. Write the Pseudocode for the program
+#### 4. Write the Pseudocode for the program
 > | __Pseudocode__              |
 > | ----------                  |
 > | Step 1: Start                       |
@@ -88,7 +88,7 @@ The central processing unit (CPU) contains the following major components:
 > | Step 5: Display `GHC`               |
 > | Step 6: Stop                        |
 
-##### 5. Draw the flow chart for the program
+#### 5. Draw the flow chart for the program
 
 ![flowchart](https://github.com/cnagyei/cpp/assets/125774357/5db39a0f-340c-40c6-8f51-bc22bc6aa56c)
 
@@ -111,7 +111,7 @@ The central processing unit (CPU) contains the following major components:
 #### a. The area and perimeter of a rectangle can be determined using the following formula: Area = length * Width Perimeter = 2 (length + Width)
 #### Assuming that a program was to be written to determine the Area and perimeter above perform the following:
 
-##### 1. A program requirement analysis to determine the input, the process and output.
+#### 1. A program requirement analysis to determine the input, the process and output.
 
 __Problem:__
 - To calculate the area and perimeter of a rectangle
@@ -123,7 +123,7 @@ __IPO - Area and Perimeter of Rectangle:__
 >    | Process   | `Area = L * W`, `Perimeter = 2 * (L + W)`              |
 >    | Output    | Display area and perimeter                    |
 
-##### 2. Develop an algorithm
+#### 2. Develop an algorithm
 > | __Algorithm - Area and Perimeter of a Rectangle__    |
 > | ----------                                           |
 > | Step 1:     Start                                    |
@@ -135,13 +135,13 @@ __IPO - Area and Perimeter of Rectangle:__
 > | Step 5.1:   Display `Perimeter`                      |
 > | Step 6:     Stop                                     |
 
-##### 3. Develop a flowchart
+#### 3. Develop a flowchart
 
 ![flowchart-rectangle](https://github.com/cnagyei/cpp/assets/125774357/085b49b8-83f1-431e-b899-f3572cb50acd)
 
 
 
-##### 4. Develop a pseudocode
+#### 4. Develop a pseudocode
 > |__Psedocode - Area and Perimeter of a Rectangle__           |
 > | ----------                  |
 > | Step 1:     Start                                    |
