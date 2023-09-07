@@ -21,7 +21,7 @@
     - A pseudocode cannot be compiled into an executable program
     - It uses short terms or simple English syntaxes to write code for programs before it is actuall converted into a specific programming language
 
-    Example of a pseudocode is shown below
+    - Example of a pseudocode is shown below
     ```sh
     IF sum of two random dice numbers >= 18
         THEN print "You win!"
