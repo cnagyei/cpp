@@ -128,7 +128,7 @@ __Input, process and outputs:__
 > | Step 6:     Stop                                                    |
 
 ##### 3. Develop a flowchart
-> | __Flowchart__              |
+
 
 
 ##### 4. Develop a pseudocode
