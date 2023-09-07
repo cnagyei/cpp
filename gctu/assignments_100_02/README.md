@@ -109,7 +109,7 @@ The central processing unit (CPU) contains the following major components:
 __Problem:__
 - To calculate the area and perimeter of a rectangle
 
-__Input, process and outputs:__
+__IPO - Area and Perimeter of Rectangle:__
 >    |           |                                                       |
 >    |----       |   ----                                                |
 >    | Input     | Length, L; Width, W
@@ -117,15 +117,16 @@ __Input, process and outputs:__
 >    | Output    | Display area and perimeter                    |
 
 ##### 2. Develop an algorithm
-> | __Algorithm__                                           |
-> | ----------                                              |
-> | Step 1:     Start                                                   |
-> | Step 2.0:   Accept Length, L                            |
-> | Step 2.1:   Accept Width, W                           |
-> | Step 3:     Calculate `Area = L * W`|
-> | Step 4:     Calculate `Perimeter = 2 * (L + W)`                                 |
-> | Step 5:     Display `Area` and `Perimeter`           |
-> | Step 6:     Stop                                                    |
+> | __Algorithm - Area and Perimeter of a Rectangle__    |
+> | ----------                                           |
+> | Step 1:     Start                                    |
+> | Step 2.0:   Accept Length, L                         |
+> | Step 2.1:   Accept Width, W                          |
+> | Step 3:     Calculate `Area = L * W`                 |
+> | Step 4:     Calculate `Perimeter = 2 * (L + W)`      |
+> | Step 5.0:   Display `Area`                           |
+> | Step 5.1:   Display `Perimeter`                      |
+> | Step 6:     Stop                                     |
 
 ##### 3. Develop a flowchart
 
@@ -134,15 +135,29 @@ __Input, process and outputs:__
 
 
 ##### 4. Develop a pseudocode
-
+> |__Psedocode - Area and Perimeter of a Rectangle__           |
 > | ----------                  |
-> | Start                       |
-> | Read `R = 3.9`              |
-> | Accept `USD`                |
-> | Compute `GHC = R * USD`     |
-> | Display `GHC`               |
-> | Stop                        |
+> | Step 1:     Start                                    |
+> | Step 2.0:   Accept L                         |
+> | Step 2.1:   Accept W                          |
+> | Step 3:     Calculate `Area = L * W`                 |
+> | Step 4:     Calculate `Perimeter = 2 * (L + W)`      |
+> | Step 5.0:   Display `Area`                           |
+> | Step 5.1:   Display `Perimeter`                      |
+> | Step 6:     Stop                                     |
 
+#### c. There are three main kinds of repetition statements. Name them and briefly give the syntax of each.
+
+#### d.
+
+1. Discuss the difference between syntax and semantics
+> Syntax refers to rules that specify which statements (instructions) are legal. Thus, syntax refers to the form of the language.
+>
+> Semantics, on the other hand, refers to the meaning of the intructions. Semantics of a programming language describes what syntactically valid programs mean and what they do.
+
+2. An error in one of the above (d.i) would not allow a program to run: which is it?
+
+> Syntax
 
 ## References
 - https://users.cs.utah.edu/~germain/PPS/Topics/commenting.html
