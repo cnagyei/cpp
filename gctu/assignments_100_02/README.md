@@ -75,7 +75,7 @@ The central processing unit (CPU) contains the following major components:
 > | __Pseudocode__              |
 > | ----------                  |
 > | Start                       |
-> | Read `R = 3.9`                    |
+> | Read `R = 3.9`              |
 > | Accept `USD`                |
 > | Compute `GHC = R * USD`     |
 > | Display `GHC`               |
@@ -83,7 +83,7 @@ The central processing unit (CPU) contains the following major components:
 
 ##### 5. Draw the flow chart for the program
 
-![Flowchart](https://ibb.co/qnhzBfh)
+![flowchart](https://github.com/cnagyei/cpp/assets/125774357/5db39a0f-340c-40c6-8f51-bc22bc6aa56c)
 
 #### b. Suppose p, q, n, and t are double variables. What value is assigned to each of these variables after the last statement executes
 
@@ -97,6 +97,14 @@ The central processing unit (CPU) contains the following major components:
 > n = t – p;              n = 43
 > t++;                    t = 59
 > ```
+
+
+## Question 3
+
+#### a. The area and perimeter of a rectangle can be determined using the following formula: Area = length * Width Perimeter = 2 (length + Width)
+#### Assuming that a program was to be written to determine the Area and perimeter above perform the following:
+
+
 
 
 ## References
