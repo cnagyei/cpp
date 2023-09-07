@@ -53,10 +53,10 @@ The central processing unit (CPU) contains the following major components:
 
 ```sh
 Statement               Value assigned
+
 p = 15.00;              p = 15.00
 q = 10.00;              q = 10.00
 n = p – 8;              n = 7.00
-
 t = p + 5 * q - n;      t = 58 
 n = t – p;              n = 43
 t++;                    t = 59
