@@ -193,7 +193,7 @@ _3. for loops_
     > Syntax
 
 ## References
-- https://users.cs.utah.edu/~germain/PPS/Topics/commenting.html
-- https://lambda.uta.edu/cse5317/notes/node3.html
-- https://www.iig.ch/en-en/blog/computer-science/algorithm-computer-science-definition-and-understanding Algorithms: their meaning in computer science
-https://economictimes.indiatimes.com/definition/pseudocode What is 'Pseudocode'
+- The University of Utah Computer Science Department, _Commenting_, https://users.cs.utah.edu/~germain/PPS/Topics/commenting.html (Retrieved on 6 September, 2023)
+- The University of Texas at Arlington, _What is a Compiler_, https://lambda.uta.edu/cse5317/notes/node3.html (Retrieved on 6 September, 2023)
+- International Institute in Geneva, _Understanding Algorithms in Computer Science_, https://www.iig.ch/en-en/blog/computer-science/algorithm-computer-science-definition-and-understanding (Retrieved on 6 September, 2023)
+- The Economic Times, _What is a Pseudocode_, https://economictimes.indiatimes.com/definition/pseudocode (Retrieved on 6 September, 2023)
