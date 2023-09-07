@@ -58,28 +58,28 @@ The central processing unit (CPU) contains the following major components:
 >    |           |                                                       |
 >    |----       |   ----                                                |
 >    | Input     | (a) Dollar to Cedi exchange rate (b) Dollar amount    |
->    | Process   | Multiply exchange rate by Dollar amount               |
+>    | Process   | Multiply exchange rate by Dollar amount to get Ghana Cedi equivalent              |
 >    | Output    | Ghana Cedi equivalent of US Dollar                    |
 
 ##### 3. Write the Algorithm for the program
 > | __Algorithm__                                           |
 > | ----------                                              |
-> | Start                                                   |
-> | Read Exchange Rate, R = 3.9                             |
-> | Accept Dollar amount, USD                               |
-> | Compute Ghana Cedi, GHC = Exchange Rate * Dollar amount`|
-> | Output  Ghana Cedi, GHC                                 |
-> | Stop                                                    |
+> | Step 1: Start                                                   |
+> | Step 2: Read Exchange Rate, R = 3.9                             |
+> | Step 3: Accept Dollar amount, USD                               |
+> | Step 4: Compute Ghana Cedi, GHC = Exchange Rate * Dollar amount`|
+> | Step 5: Output  Ghana Cedi, GHC                                 |
+> | Step 6: Stop                                                    |
 
 ##### 4. Write the Pseudocode for the program
 > | __Pseudocode__              |
 > | ----------                  |
-> | Start                       |
-> | Read `R = 3.9`              |
-> | Accept `USD`                |
-> | Compute `GHC = R * USD`     |
-> | Display `GHC`               |
-> | Stop                        |
+> | Step 1: Start                       |
+> | Step 2: Read `R = 3.9`              |
+> | Step 3: Accept `USD`                |
+> | Step 4: Compute `GHC = R * USD`     |
+> | Step 5: Display `GHC`               |
+> | Step 6: Stop                        |
 
 ##### 5. Draw the flow chart for the program
 
@@ -104,7 +104,42 @@ The central processing unit (CPU) contains the following major components:
 #### a. The area and perimeter of a rectangle can be determined using the following formula: Area = length * Width Perimeter = 2 (length + Width)
 #### Assuming that a program was to be written to determine the Area and perimeter above perform the following:
 
+##### 1. A program requirement analysis to determine the input, the process and output.
 
+__Problem:__
+- To calculate the area and perimeter of a rectangle
+
+__Input, process and outputs:__
+>    |           |                                                       |
+>    |----       |   ----                                                |
+>    | Input     | Length, L; Width, W
+>    | Process   | `Area = L * W`, `Perimeter = 2 * (L + W)`              |
+>    | Output    | Display area and perimeter                    |
+
+##### 2. Develop an algorithm
+> | __Algorithm__                                           |
+> | ----------                                              |
+> | Step 1:     Start                                                   |
+> | Step 2.0:   Accept Length, L                            |
+> | Step 2.1:   Accept Width, W                           |
+> | Step 3:     Calculate `Area = L * W`|
+> | Step 4:     Calculate `Perimeter = 2 * (L + W)`                                 |
+> | Step 5:     Display `Area` and `Perimeter`           |
+> | Step 6:     Stop                                                    |
+
+##### 3. Develop a flowchart
+> | __Flowchart__              |
+
+
+##### 4. Develop a pseudocode
+
+> | ----------                  |
+> | Start                       |
+> | Read `R = 3.9`              |
+> | Accept `USD`                |
+> | Compute `GHC = R * USD`     |
+> | Display `GHC`               |
+> | Stop                        |
 
 
 ## References
