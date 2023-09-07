@@ -75,13 +75,15 @@ The central processing unit (CPU) contains the following major components:
 > | __Pseudocode__              |
 > | ----------                  |
 > | Start                       |
-> | Read `R`                    |
+> | Read `R = 3.9`                    |
 > | Accept `USD`                |
 > | Compute `GHC = R * USD`     |
 > | Display `GHC`               |
 > | Stop                        |
 
 ##### 5. Draw the flow chart for the program
+
+![Flowchart](https://ibb.co/qnhzBfh)
 
 #### b. Suppose p, q, n, and t are double variables. What value is assigned to each of these variables after the last statement executes
 
