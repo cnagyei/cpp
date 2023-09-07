@@ -48,8 +48,19 @@ The central processing unit (CPU) contains the following major components:
 - Registers: Regiters provide internal storage for the CPU.
 - Arithmetic and Logic Unit (ALU): The ALU performs the computer's data processing functions.
 
+## Question 2
+### a. Suppose p, q, n, and t are double variables. What value is assigned to each of these variables after the last statement executes
 
+Statement               Value assigned
+```sh
+p = 15.00;              p = 15.00
+q = 10.00;              q = 10.00
+n = p – 8;              n = 7.00
 
+t = p + 5 * q - n;      t = 58 
+n = t – p;              n = 43
+t++;                    t = 59
+```
 
 
 ## References
