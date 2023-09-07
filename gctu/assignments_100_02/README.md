@@ -1,5 +1,6 @@
 ## Question 1
-### a.
+### a. The following are identifiers. Using them, do the following:
+
 | Identifier | Identify the wrong ones | State the reason why they are wrong | Rewrite the wrong ones correctly |
 |-----|-----|-----|-----|
 | `TotalPayment` | Correct | Correct | Correct |
@@ -13,7 +14,8 @@
 | `Stud_grade?` | Wrong | Use of question mark `?`| `Stud_grade` |
 | `Makepayment_1` | Correct | Correct | Correct |
 
-### b.
+### b. Explain the following terms
+
 - Identifiers - Identifiers are names that represent unique objects or class of objects. They are a type of string of alphanumeric characters that always begins with either an alphabetic or underscore character.
 
 - Pseudocodes - A pseudocode is a notation, language-like solution resembling a simplified programming language, used in program design to create the outline or rough draft of a program. Pseudocodes summarize a program's flow, but excludes underlying details.
@@ -28,15 +30,27 @@
     ELSE print "You lose!"
     ```
 
-- Comments - Comments are specially marked lines of text in the program that are not evaluated. Comments are programmer-readable explanation or annotation in the source code of a computer program. They are added for the purpose of making the source code easier for humans to understand, and are generally ignored by compilers and interpreters. There are usually two syntactic ways to comment.
+- Comments: Comments are specially marked lines of text in the program that are not evaluated. Comments are programmer-readable explanation or annotation in the source code of a computer program. They are added for the purpose of making the source code easier for humans to understand, and are generally ignored by compilers and interpreters. There are usually two syntactic ways to comment.
     1. The first is called a _single line comment_ and, as implied, only applies to a single line in the source code.
     2. _Block comment_ refers usually to a paragraph of text. A block comment has a start symbol and an end symbol and everthing between is ignored by the computer.
 
-- Compiler - A compiler is a program that converts instructions of a source program written in some high-level programming language (such as JavaScript) into a machine code or lower-level form so that they can be read and executed by a computer. The machine code generated can be later executed many times against different data each time.
+- Compiler: A compiler is a program that converts instructions of a source program written in some high-level programming language (such as JavaScript) into a machine code or lower-level form so that they can be read and executed by a computer. The machine code generated can be later executed many times against different data each time.
 
-- Algorithm - An algorithm is simply a set of steps used to complete a specific task. Alogorithms are the building blocks for computer programming. They are used to solve problems based on the understanding of available alternatives. Algorithms also serve as specifications for performing calculations, processing data, performing automated reasoning or making decisions.
+- Algorithm: An algorithm is simply a set of steps used to complete a specific task. Alogorithms are the building blocks for computer programming. They are used to solve problems based on the understanding of available alternatives. Algorithms also serve as specifications for performing calculations, processing data, performing automated reasoning or making decisions.
 
-- Flowchart - A flowchart is a graphical representation of a computer program in relation to its sequence of functions ad distints from the data it processes. A flowchart depicts a process, system or computer algorithm. a flowchart
+- Flowchart: A flowchart is a graphical representation of a computer program in relation to its sequence of functions ad distints from the data it processes. A flowchart depicts a process, system or computer algorithm. a flowchart
+
+## c. List and explain the components of the CPU
+
+The central processing unit (CPU) contains the following major components:
+
+- Control unit: The control unit is responsible for executing all the operations of the processor.
+- Registers: Regiters provide internal storage for the CPU.
+- Arithmetic and Logic Unit (ALU): The ALU performs the computer's data processing functions.
+
+
+
+
 
 ## References
 - https://users.cs.utah.edu/~germain/PPS/Topics/commenting.html
