@@ -24,11 +24,11 @@
     - It uses short terms or simple English syntaxes to write code for programs before it is actuall converted into a specific programming language
 
     - Example of a pseudocode is shown below
->    ```sh
->    IF sum of two random dice numbers >= 18
->        THEN print "You win!"
->    ELSE print "You lose!"
->    ```
+        >    ```sh
+        >    IF sum of two random dice numbers >= 18
+        >        THEN print "You win!"
+        >    ELSE print "You lose!"
+        >    ```
 
 3. Comments: Comments are specially marked lines of text in the program that are not evaluated. Comments are programmer-readable explanation or annotation in the source code of a computer program. They are added for the purpose of making the source code easier for humans to understand, and are generally ignored by compilers and interpreters. There are usually two syntactic ways to comment.
     - The first is called a _single line comment_ and, as implied, only applies to a single line in the source code.
@@ -148,16 +148,42 @@ __IPO - Area and Perimeter of Rectangle:__
 
 #### c. There are three main kinds of repetition statements. Name them and briefly give the syntax of each.
 
+_1. while loops_
+```sh
+        while (expression)
+            {
+                statement;
+            }
+```
+
+_2. do while loops_
+```sh
+        do
+        {
+            statement;
+        }
+        while (expression);
+```
+
+_3. for loops_
+```sh
+        for (initialCondition; testCondition; iterativeStatement)
+        {
+            statement;
+        }
+```
+
 #### d.
 
 1. Discuss the difference between syntax and semantics
-> Syntax refers to rules that specify which statements (instructions) are legal. Thus, syntax refers to the form of the language.
->
-> Semantics, on the other hand, refers to the meaning of the intructions. Semantics of a programming language describes what syntactically valid programs mean and what they do.
+    > Syntax refers to rules that specify which statements (instructions) are legal. Thus, syntax refers to the form of the language.
+    >
+    > Semantics, on the other hand, refers to the meaning of the intructions. Semantics of a programming language describes what syntactically valid programs mean and what they do.
+
 
 2. An error in one of the above (d.i) would not allow a program to run: which is it?
 
-> Syntax
+    > Syntax
 
 ## References
 - https://users.cs.utah.edu/~germain/PPS/Topics/commenting.html
