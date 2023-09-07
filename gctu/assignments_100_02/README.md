@@ -28,10 +28,18 @@
     ELSE print "You lose!"
     ```
 
-- Comments
+- Comments - Comments are specially marked lines of text in the program that are not evaluated. Comments are programmer-readable explanation or annotation in the source code of a computer program. They are added for the purpose of making the source code easier for humans to understand, and are generally ignored by compilers and interpreters. There are usually two syntactic ways to comment.
+    1. The first is called a _single line comment_ and, as implied, only applies to a single line in the source code.
+    2. _Block comment_ refers usually to a paragraph of text. A block comment has a start symbol and an end symbol and everthing between is ignored by the computer.
 
-- Compiler
+- Compiler - A compiler is a program that converts instructions of a source program written in some high-level programming language (such as JavaScript) into a machine code or lower-level form so that they can be read and executed by a computer. The machine code generated can be later executed many times against different data each time.
 
-- Algorithm
+- Algorithm - An algorithm is simply a set of steps used to complete a specific task. Alogorithms are the building blocks for computer programming. They are used to solve problems based on the understanding of available alternatives. Algorithms also serve as specifications for performing calculations, processing data, performing automated reasoning or making decisions.
 
-- flowchart 
+- Flowchart - A flowchart is a graphical representation of a computer program in relation to its sequence of functions ad distints from the data it processes. A flowchart depicts a process, system or computer algorithm. a flowchart
+
+## References
+- https://users.cs.utah.edu/~germain/PPS/Topics/commenting.html
+- https://lambda.uta.edu/cse5317/notes/node3.html
+- https://www.iig.ch/en-en/blog/computer-science/algorithm-computer-science-definition-and-understanding Algorithms: their meaning in computer science
+https://economictimes.indiatimes.com/definition/pseudocode What is 'Pseudocode'
