@@ -16,6 +16,7 @@ A&B Company Ltd. is a company located in Accra that deals with spare parts of ca
 >   - `averageSalesDay`
 >   - `averageSalesWeek`
 >   - `averageSalesMonth`
+>   - iterator `i`
 >
 > Step 3: Accept input for:
 >
@@ -60,12 +61,56 @@ using namespace std;
 void salesCalculator()
 {
     int numberofDaysInWeek, numberOfWeeksInMonth, numberOfMonthsInYear;
-    double totalSalesWeek, totalSalesMonth, totalSalesYear;
+    double totalSalesWeek = 0, totalSalesMonth = 0, totalSalesYear = 0;
     double averageSalesWeek, averageSalesMonth, averageSalesYear;
+    double tempSalesWeek, tempSalesMonth, tempSalesYear;
+    int i;
 
-    cout << "Please enter number of days in the week" << endl;
+    cout << "Please enter number of days in the week!" << endl;
     cin >> numberOfDaysInWeek;
 
+    cout << "Please enter number of weeks in month!" << endl;
+    cin >> numberOfWeeksInMonth;
+
+    cout << "Please enter number of months in year!" << endl;
+    cin >> numberOfMonthsInYear;
+
+    // Loop and accept daily sales for each day
+    for (i = 0; i <= numberOfDaysInWeek; i++)
+    {
+        printf("Enter sales for each day %d in the week \n", (i + 1));
+        cout << "Enter now!" << endl;
+        cin >> tempSalesWeek;
+        totalSalesWeek += tempSalesWeek;
+    }
+
+    // Loop and accept daily sales for the month
+    for (i = 0; i <= numberOfDaysInMonth; i++)
+    {
+        printf("Enter sales for day %d in the month\n", (i + 1));
+        cin >> tempSalesMonth;
+        totalSalesMonth += tempSalesMonth;
+    }
+
+    // Loop and accept monthly sales for the year
+    for (i = 0; i <= numberOfMonthsInYear; i++)
+    {
+        printf("Enter sales for month %d in the year\n", (i + 1));
+        cin >> tempSalesYear;
+        totalSalesYear += tempSalesYear;
+    }
+
+    // Calculate average sales for each day
+    averageSalesDay = totalSalesWeek / numberOfDaysInWeek;
+    printf("Total average sales for each day: %f\n", averageSalesDay);
+
+    // Calculate average sales for the week
+    averageSalesWeek = totalSalesMonth / numberOfWeeksInMonth;
+    printf("Total average sales for each week: %f\n", averageSalesWeek);
+
+    // Calculate average sales for the month
+    averageSalesMonth = totalSalesYear / numberOfMonthsInYear;
+    printf("Total average sales for each month: %f\n", averageSalesMonth);
 }
 
 /*
