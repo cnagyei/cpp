@@ -11,46 +11,62 @@ A&B Company Ltd. is a company located in Accra that deals with spare parts of ca
 ## Algorithm
 
 > Step 1: Start
+
+> Step 2: Call `main` function
 >
-> Step 2: Declare variables for:
+> Step 3: Call `salesCalculator` function
+>
+> Step 4: Declare variables of type `int` for:
+>
 >   - `numberofDaysInWeek`
+>   - `numberOfDaysInMonth`
 >   - `numberOfWeeksInMonth`
 >   - `numberOfMonthsInYear`
->   - `totalSalesWeek`
->   - `totalSalesMonth`
->   - `totalSalesYear`
+>
+> Step 5: Declare variables of type `double` for:
+>
 >   - `averageSalesDay`
 >   - `averageSalesWeek`
 >   - `averageSalesMonth`
->   - iterator `i`
 >
-> Step 3: Accept input for:
+> Step 6: Initialize the following variables of type `double` to `0`:
+>
+>   - `totalSalesWeek = 0`
+>   - `totalSalesMonth = 0`
+>   - `totalSalesYear = 0`
+>
+> Step 7: Declare variables of type `double` to be used to hold values temporarily
+>
+> Step 8: Declare an `int` variable to be used as iterator `i`
+>
+> Step 9: Accept input for:
 >
 >   - `numberofDaysInWeek`
+>   - `numberofDaysInMonth`
 >   - `numberOfWeeksInMonth`
 >   - `numberOfMonthsInYear`
 >
-> Step 4: Loop and accept input for each day in the week and add each input to `totalSalesWeek`
+> Step 10: Loop and accept input for each day in the week, store in `tempSalesWeek`, and add each input to `totalSalesWeek`
 >
-> Step 5: Loop and accept input for each day in the month and add each input to `totalSalesMonth`
+> Step 11: Loop and accept input for each day in the month, store in `tempSalesMonth`, and add each input to `totalSalesMonth`
 >
-> Step 6: Loop and accept input each month in the year and add each input to `totalSalesYear`
+> Step 12: Loop and accept input each month in the year, store in `tempSalesYear`, and add each input to `totalSalesYear`
 >
-> Step 7: Calculate:
+> Step 13: Calculate:
 >
 >   - `averageSalesDay = totalSalesWeek / numberOfDaysInWeek`
 >   - `aveargeSalesWeek = totalSalesMonth / numberOfWeeksInMonth`
 >   - `averageSalesMonth = totalSalesYear / numberofMonthsInYear`
 >
-> Step 8: Display output:
+> Step 14: Display output:
 >
 >   - `averageSalesDay`
 >   - `aveargeSalesWeek`
 >   - `aveargeSalesMonth`
 >
-> Step 9: Return `0` on success
+> Step 15: Return `0` on success
 >
-> Step 10: Exit
+> Step 16: Exit
 
 
 ## A Simple C++ Application
@@ -67,8 +83,9 @@ using namespace std;
 void salesCalculator()
 {
     int numberOfDaysInWeek, numberOfDaysInMonth, numberOfWeeksInMonth, numberOfMonthsInYear;
-    double totalSalesWeek = 0, totalSalesMonth = 0, totalSalesYear = 0;
     double averageSalesDay, averageSalesWeek, averageSalesMonth;
+    double totalSalesWeek = 0, totalSalesMonth = 0, totalSalesYear = 0;
+    
     double tempSalesWeek, tempSalesMonth, tempSalesYear;
     int i;
 
@@ -85,8 +102,8 @@ void salesCalculator()
     cout << "Please enter number of months in year!" << endl;
     cin >> numberOfMonthsInYear;
 
-    printf("\nDaily Sales\n===========\n");
     // Loop and accept daily sales for each day
+    printf("\nDaily Sales\n===========\n");
     for (i = 0; i < numberOfDaysInWeek; i++)
     {
         printf("Enter sales for day %d in the week \n", (i + 1));
@@ -94,8 +111,8 @@ void salesCalculator()
         totalSalesWeek += tempSalesWeek;
     }
 
-    printf("\nMonthly Sales\n=============\n");
     // Loop and accept daily sales for the month
+    printf("\nMonthly Sales\n=============\n");
     for (i = 0; i < numberOfDaysInMonth; i++)
     {
         printf("Enter sales for day %d in the month\n", (i + 1));
@@ -103,8 +120,8 @@ void salesCalculator()
         totalSalesMonth += tempSalesMonth;
     }
 
-    printf("\nAnnual Sales\n============\n");
     // Loop and accept monthly sales for the year
+    printf("\nAnnual Sales\n============\n");
     for (i = 0; i < numberOfMonthsInYear; i++)
     {
         printf("Enter sales for month %d in the year\n", (i + 1));
@@ -112,21 +129,21 @@ void salesCalculator()
         totalSalesYear += tempSalesYear;
     }
 
+    // Calculate average sales for each day
     printf("\nCalculating average sales for each DAY...\n");
     printf("=========================================\n");
-    // Calculate average sales for each day
     averageSalesDay = totalSalesWeek / numberOfDaysInWeek;
     printf("Total average sales for each day: GHC %.2f\n\n", averageSalesDay);
 
+    // Calculate average sales for the week
     printf("\nCalculating average sales for each WEEK...\n");
     printf("==========================================\n");
-    // Calculate average sales for the week
     averageSalesWeek = totalSalesMonth / numberOfWeeksInMonth;
     printf("Total average sales for each week: GHC %.2f\n\n", averageSalesWeek);
 
+    // Calculate average sales for the month
     printf("\nCalculating average sales for each MONTH...\n");
     printf("===========================================\n");
-    // Calculate average sales for the month
     averageSalesMonth = totalSalesYear / numberOfMonthsInYear;
     printf("Total average sales for each month: GHC %.2f\n\n", averageSalesMonth);
 }
