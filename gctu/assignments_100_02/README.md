@@ -5,6 +5,7 @@ A&B Company Ltd. is a company located in Accra that deals with spare parts of ca
 ## Algorithm
 
 > Step 1: Start
+>
 > Step 2: Declare variables for:
 >   - `numberofDaysInWeek`
 >   - `numberOfWeeksInMonth`
@@ -15,23 +16,36 @@ A&B Company Ltd. is a company located in Accra that deals with spare parts of ca
 >   - `averageSalesDay`
 >   - `averageSalesWeek`
 >   - `averageSalesMonth`
+>
 > Step 3: Accept input for:
+>
 >   - `numberofDaysInWeek`
 >   - `numberOfWeeksInMonth`
 >   - `numberOfMonthsInYear`
+>
 > Step 4: Loop and accept input for each day in the week and add each input to `totalSalesWeek`
+>
 > Step 5: Loop and accept input for each day in the month and add each input to `totalSalesMonth`
+>
 > Step 6: Loop and accept input each month in the year and add each input to `totalSalesYear`
+>
 > Step 7: Calculate:
+>
 >   - `averageSalesDay = totalSalesWeek / numberOfDaysInWeek`
 >   - `aveargeSalesWeek = totalSalesMonth / numberOfWeeksInMonth`
 >   - `averageSalesMonth = totalSalesYear / numberofMonthsInYear`
+>
 > Step 8: Display output:
+>
 >   - `averageSalesDay`
 >   - `aveargeSalesWeek`
 >   - `aveargeSalesMonth`
+>
 > Step 9: Return `0` on success
-> Exit
+>
+> Step 10: Exit
+
+
 ## A Simple C++ Application
 
 ```sh
