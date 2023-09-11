@@ -37,7 +37,11 @@ A&B Company Ltd. is a company located in Accra that deals with spare parts of ca
 >
 > Step 7: Declare variables of type `double` to be used to hold values temporarily
 >
-> Step 8: Declare an `int` variable to be used as iterator `i`
+>   - `tempSalesWeek`
+>   - `tempSalesMonth`
+>   - `tempSalesYear`
+>
+> Step 8: Declare an `int` variable `i` to be used as iterator
 >
 > Step 9: Accept input for:
 >
