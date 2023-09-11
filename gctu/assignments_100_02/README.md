@@ -11,7 +11,7 @@ A&B Company Ltd. is a company located in Accra that deals with spare parts of ca
 ## Algorithm
 
 > Step 1: Start
-
+>
 > Step 2: Call `main` function
 >
 > Step 3: Call `salesCalculator` function
@@ -133,18 +133,24 @@ void salesCalculator()
     printf("\nCalculating average sales for each DAY...\n");
     printf("=========================================\n");
     averageSalesDay = totalSalesWeek / numberOfDaysInWeek;
+    printf("Total sales for the week: GHC %.2f\n", totalSalesWeek);
+    printf("Number of days in the week: %d\n", numberOfDaysInWeek);
     printf("Total average sales for each day: GHC %.2f\n\n", averageSalesDay);
 
     // Calculate average sales for the week
     printf("\nCalculating average sales for each WEEK...\n");
     printf("==========================================\n");
     averageSalesWeek = totalSalesMonth / numberOfWeeksInMonth;
+    printf("Total sales for the month: GHC %.2f\n", totalSalesMonth);
+    printf("Number of weeks in the month: %d\n", numberOfWeeksInMonth);
     printf("Total average sales for each week: GHC %.2f\n\n", averageSalesWeek);
 
     // Calculate average sales for the month
     printf("\nCalculating average sales for each MONTH...\n");
     printf("===========================================\n");
     averageSalesMonth = totalSalesYear / numberOfMonthsInYear;
+    printf("Total sales for the year: GHC %.2f\n", totalSalesYear);
+    printf("Number of months in the year: %d\n", numberOfMonthsInYear);
     printf("Total average sales for each month: GHC %.2f\n\n", averageSalesMonth);
 }
 
