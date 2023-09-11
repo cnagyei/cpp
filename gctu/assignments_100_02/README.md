@@ -52,9 +52,30 @@ A&B Company Ltd. is a company located in Accra that deals with spare parts of ca
 #include <iostream>
 using namespace std;
 
+/*
+* salesCalculator - calculates average sales for each day, week, and month
+*
+* Return: Void
+*/
+void salesCalculator()
+{
+    int numberofDaysInWeek, numberOfWeeksInMonth, numberOfMonthsInYear;
+    double totalSalesWeek, totalSalesMonth, totalSalesYear;
+    double averageSalesWeek, averageSalesMonth, averageSalesYear;
+
+    cout << "Please enter number of days in the week" << endl;
+    cin >> numberOfDaysInWeek;
+    
+}
+
+/*
+* main - entry point
+*
+* Return: 0 on success
+*/
 int main()
 {
-
+    salesCalculator();
     return (0);
 }
 ```
