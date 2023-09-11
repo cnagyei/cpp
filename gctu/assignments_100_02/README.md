@@ -60,14 +60,18 @@ using namespace std;
 */
 void salesCalculator()
 {
-    int numberofDaysInWeek, numberOfWeeksInMonth, numberOfMonthsInYear;
+    int numberOfDaysInWeek, numberOfDaysInMonth, numberOfWeeksInMonth, numberOfMonthsInYear;
     double totalSalesWeek = 0, totalSalesMonth = 0, totalSalesYear = 0;
-    double averageSalesWeek, averageSalesMonth, averageSalesYear;
+    double averageSalesDay, averageSalesWeek, averageSalesMonth;
     double tempSalesWeek, tempSalesMonth, tempSalesYear;
     int i;
 
+    printf("Data Entry\n==========\n");
     cout << "Please enter number of days in the week!" << endl;
     cin >> numberOfDaysInWeek;
+
+    cout << "Please enter number of days in month!" << endl;
+    cin >> numberOfDaysInMonth;
 
     cout << "Please enter number of weeks in month!" << endl;
     cin >> numberOfWeeksInMonth;
@@ -75,42 +79,50 @@ void salesCalculator()
     cout << "Please enter number of months in year!" << endl;
     cin >> numberOfMonthsInYear;
 
+    printf("\nDaily Sales\n===========\n");
     // Loop and accept daily sales for each day
-    for (i = 0; i <= numberOfDaysInWeek; i++)
+    for (i = 0; i < numberOfDaysInWeek; i++)
     {
-        printf("Enter sales for each day %d in the week \n", (i + 1));
-        cout << "Enter now!" << endl;
+        printf("Enter sales for day %d in the week \n", (i + 1));
         cin >> tempSalesWeek;
         totalSalesWeek += tempSalesWeek;
     }
 
+    printf("\nMonthly Sales\n=============\n");
     // Loop and accept daily sales for the month
-    for (i = 0; i <= numberOfDaysInMonth; i++)
+    for (i = 0; i < numberOfDaysInMonth; i++)
     {
         printf("Enter sales for day %d in the month\n", (i + 1));
         cin >> tempSalesMonth;
         totalSalesMonth += tempSalesMonth;
     }
 
+    printf("\nAnnual Sales\n============\n");
     // Loop and accept monthly sales for the year
-    for (i = 0; i <= numberOfMonthsInYear; i++)
+    for (i = 0; i < numberOfMonthsInYear; i++)
     {
         printf("Enter sales for month %d in the year\n", (i + 1));
         cin >> tempSalesYear;
         totalSalesYear += tempSalesYear;
     }
 
+    printf("\nCalculating average sales for each DAY...\n");
+    printf("=========================================\n");
     // Calculate average sales for each day
     averageSalesDay = totalSalesWeek / numberOfDaysInWeek;
-    printf("Total average sales for each day: %f\n", averageSalesDay);
+    printf("Total average sales for each day: GHC %.2f\n\n", averageSalesDay);
 
+    printf("\nCalculating average sales for each WEEK...\n");
+    printf("==========================================\n");
     // Calculate average sales for the week
     averageSalesWeek = totalSalesMonth / numberOfWeeksInMonth;
-    printf("Total average sales for each week: %f\n", averageSalesWeek);
+    printf("Total average sales for each week: GHC %.2f\n\n", averageSalesWeek);
 
+    printf("\nCalculating average sales for each MONTH...\n");
+    printf("===========================================\n");
     // Calculate average sales for the month
     averageSalesMonth = totalSalesYear / numberOfMonthsInYear;
-    printf("Total average sales for each month: %f\n", averageSalesMonth);
+    printf("Total average sales for each month: GHC %.2f\n\n", averageSalesMonth);
 }
 
 /*
