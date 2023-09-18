@@ -32,5 +32,23 @@ int main()
 
 	}
 
+	else if (score >= 60 && score < 70)
+	{
+		cout << "Name: " << name << " | Score: " << score << " | Grade: C" << endl;
+	}
+
+	else if (score >= 50 && score < 60)
+	{
+		cout << "Name: " << name << " | Score: " << score << " | Grade: D" << endl;
+	}
+
+	else if (score >= 0 && score < 50)
+	{
+		cout << "Name: " << name << " | Score: " << score << " | Grade: E" << endl;
+	}
+	else
+		cout << "Data entry out of range! Please try again ..." << endl;
+
+
         return 0;
 }
